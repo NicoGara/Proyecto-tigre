@@ -117,12 +117,20 @@ img{
     height: 70vh;
 }
 
+.imagen_fondo-5{
+    background-image: url(../../public/img-parte-5-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 70vh;
+}
+
 
 .mi-grid{
     display: grid;
     grid-template-columns: repeat(4,auto);
     /* grid-auto-rows: 100px; */
-    grid-template-rows: minmax(100px,150px);
+    /* grid-template-rows: minmax(100px,150px); */
 }
 
 
